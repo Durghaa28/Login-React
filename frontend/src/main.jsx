@@ -2,11 +2,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-
 import App from './App.jsx'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import Success from './success'
-import Fail from './fail'
+import Success from "./Success";
+import Fail from "./Fail";
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
